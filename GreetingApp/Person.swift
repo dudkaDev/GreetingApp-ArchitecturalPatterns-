@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+class Person {
+    let name: String
+    let surname: String
+    
+    init(name: String, surname: String) {
+        self.name = name
+        self.surname = surname
+    }
+}
