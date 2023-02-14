@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		5545D410299260B8008C7583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D40F299260B8008C7583 /* AppDelegate.swift */; };
 		5545D412299260B8008C7583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D411299260B8008C7583 /* SceneDelegate.swift */; };
-		5545D414299260B8008C7583 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D413299260B8008C7583 /* GreetingViewController.swift */; };
 		5545D417299260B8008C7583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5545D415299260B8008C7583 /* Main.storyboard */; };
 		5545D419299260BB008C7583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5545D418299260BB008C7583 /* Assets.xcassets */; };
 		5545D41C299260BB008C7583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5545D41A299260BB008C7583 /* LaunchScreen.storyboard */; };
 		5545D42429926438008C7583 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D42329926438008C7583 /* Person.swift */; };
+		5545D4C6299BB78D008C7583 /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4C0299BB78D008C7583 /* GreetingPresenter.swift */; };
+		5545D4C7299BB78D008C7583 /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4C1299BB78D008C7583 /* GreetingConfigurator.swift */; };
+		5545D4C8299BB78D008C7583 /* GreetingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4C2299BB78D008C7583 /* GreetingRouter.swift */; };
+		5545D4C9299BB78D008C7583 /* GreetingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4C3299BB78D008C7583 /* GreetingModels.swift */; };
+		5545D4CA299BB78D008C7583 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4C4299BB78D008C7583 /* GreetingViewController.swift */; };
+		5545D4CB299BB78D008C7583 /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4C5299BB78D008C7583 /* GreetingInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5545D40C299260B8008C7583 /* GreetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5545D40F299260B8008C7583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5545D411299260B8008C7583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5545D413299260B8008C7583 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		5545D416299260B8008C7583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5545D418299260BB008C7583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5545D41B299260BB008C7583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5545D41D299260BB008C7583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5545D42329926438008C7583 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5545D4C0299BB78D008C7583 /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
+		5545D4C1299BB78D008C7583 /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
+		5545D4C2299BB78D008C7583 /* GreetingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingRouter.swift; sourceTree = "<group>"; };
+		5545D4C3299BB78D008C7583 /* GreetingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingModels.swift; sourceTree = "<group>"; };
+		5545D4C4299BB78D008C7583 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		5545D4C5299BB78D008C7583 /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +68,9 @@
 		5545D40E299260B8008C7583 /* GreetingApp */ = {
 			isa = PBXGroup;
 			children = (
+				5545D4BF299BB748008C7583 /* Greeting */,
 				5545D40F299260B8008C7583 /* AppDelegate.swift */,
 				5545D411299260B8008C7583 /* SceneDelegate.swift */,
-				5545D413299260B8008C7583 /* GreetingViewController.swift */,
 				5545D42329926438008C7583 /* Person.swift */,
 				5545D415299260B8008C7583 /* Main.storyboard */,
 				5545D418299260BB008C7583 /* Assets.xcassets */,
@@ -68,6 +78,19 @@
 				5545D41D299260BB008C7583 /* Info.plist */,
 			);
 			path = GreetingApp;
+			sourceTree = "<group>";
+		};
+		5545D4BF299BB748008C7583 /* Greeting */ = {
+			isa = PBXGroup;
+			children = (
+				5545D4C4299BB78D008C7583 /* GreetingViewController.swift */,
+				5545D4C5299BB78D008C7583 /* GreetingInteractor.swift */,
+				5545D4C0299BB78D008C7583 /* GreetingPresenter.swift */,
+				5545D4C1299BB78D008C7583 /* GreetingConfigurator.swift */,
+				5545D4C2299BB78D008C7583 /* GreetingRouter.swift */,
+				5545D4C3299BB78D008C7583 /* GreetingModels.swift */,
+			);
+			path = Greeting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5545D414299260B8008C7583 /* GreetingViewController.swift in Sources */,
+				5545D4C9299BB78D008C7583 /* GreetingModels.swift in Sources */,
+				5545D4C6299BB78D008C7583 /* GreetingPresenter.swift in Sources */,
+				5545D4C7299BB78D008C7583 /* GreetingConfigurator.swift in Sources */,
 				5545D410299260B8008C7583 /* AppDelegate.swift in Sources */,
 				5545D42429926438008C7583 /* Person.swift in Sources */,
+				5545D4C8299BB78D008C7583 /* GreetingRouter.swift in Sources */,
+				5545D4CA299BB78D008C7583 /* GreetingViewController.swift in Sources */,
 				5545D412299260B8008C7583 /* SceneDelegate.swift in Sources */,
+				5545D4CB299BB78D008C7583 /* GreetingInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
